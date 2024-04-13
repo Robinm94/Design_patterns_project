@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace MobileShopApplication
 {
+    // Abstract decorator class that adds functionality to IPhoneComponent objects
     abstract class PhoneAccessoriesDecorator : PhoneComponent, IPhoneComponent
     {
+        // The IPhoneComponent object that this decorator is decorating
         private IPhoneComponent phoneComponent;
 
+        // Constructor that takes an IPhoneComponent object
         public PhoneAccessoriesDecorator(IPhoneComponent phoneComponent)
         {
             this.phoneComponent = phoneComponent;
         }
 
+        // Methods that call the corresponding methods of the decorated IPhoneComponent object
         public override string GetBrand()
         {
             return phoneComponent.GetBrand();
@@ -36,12 +40,15 @@ namespace MobileShopApplication
         }
     }
 
+    // Concrete decorator classes that add specific functionality to IPhoneComponent objects
+
     class PhoneCover : PhoneAccessoriesDecorator
     {
         public PhoneCover(IPhoneComponent phoneComponent) : base(phoneComponent)
         {
         }
 
+        // Add "Phone Cover" to the contents of the phone
         public override string Contents()
         {
             return base.Contents() + ", Phone Cover";
@@ -54,6 +61,7 @@ namespace MobileShopApplication
         {
         }
 
+        // Add "Phone Charger" to the contents of the phone
         public override string Contents()
         {
             return base.Contents() + ", Phone Charger";
@@ -66,6 +74,7 @@ namespace MobileShopApplication
         {
         }
 
+        // Add "Screen Guard" to the contents of the phone
         public override string Contents()
         {
             return base.Contents() + ", Screen Guard";
@@ -78,6 +87,7 @@ namespace MobileShopApplication
         {
         }
 
+        // Add "Earphones" to the contents of the phone
         public override string Contents()
         {
             return base.Contents() + ", Earphones";

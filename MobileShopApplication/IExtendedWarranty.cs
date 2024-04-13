@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace MobileShopApplication
 {
+    // Interface for bridge extended warranties
     public interface IExtendedWarranty
     {
+        // Method to get the details of the extended warranty
         public string GetExtendedWarrantyDetails();
     }
 
+    // Concrete classes that implement the IExtendedWarranty interface
+
+    // Six months extended warranty
     public class SixMonthsExtendedWarranty : IExtendedWarranty
     {
         public string GetExtendedWarrantyDetails()
@@ -19,6 +24,7 @@ namespace MobileShopApplication
         }
     }
 
+    // One year extended warranty
     public class OneYearExtendedWarranty : IExtendedWarranty
     {
         public string GetExtendedWarrantyDetails()
@@ -27,6 +33,7 @@ namespace MobileShopApplication
         }
     }
 
+    // Two year extended warranty
     public class TwoYearExtendedWarranty : IExtendedWarranty
     {
         public string GetExtendedWarrantyDetails()
@@ -35,6 +42,7 @@ namespace MobileShopApplication
         }
     }
 
+    // Three year extended warranty
     public class ThreeYearExtendedWarranty : IExtendedWarranty
     {
         public string GetExtendedWarrantyDetails()
