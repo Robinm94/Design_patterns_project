@@ -11,6 +11,14 @@ namespace MobileShopApplication
         public string GetExtendedWarrantyDetails();
     }
 
+    public class SixMonthsExtendedWarranty : IExtendedWarranty
+    {
+        public string GetExtendedWarrantyDetails()
+        {
+            return "Six months extended warranty";
+        }
+    }
+
     public class OneYearExtendedWarranty : IExtendedWarranty
     {
         public string GetExtendedWarrantyDetails()
@@ -24,6 +32,14 @@ namespace MobileShopApplication
         public string GetExtendedWarrantyDetails()
         {
             return "Two year extended warranty";
+        }
+    }
+
+    public class ThreeYearExtendedWarranty : IExtendedWarranty
+    {
+        public string GetExtendedWarrantyDetails()
+        {
+            return "Three year extended warranty";
         }
     }
 }

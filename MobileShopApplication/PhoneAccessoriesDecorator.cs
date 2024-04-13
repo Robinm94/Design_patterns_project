@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MobileShopApplication
 {
-    abstract class PhoneAccessoriesDecorator : IPhoneComponent
+    abstract class PhoneAccessoriesDecorator : PhoneComponent, IPhoneComponent
     {
         private IPhoneComponent phoneComponent;
 
@@ -15,22 +15,22 @@ namespace MobileShopApplication
             this.phoneComponent = phoneComponent;
         }
 
-        public string GetBrand()
+        public override string GetBrand()
         {
             return phoneComponent.GetBrand();
         }
 
-        public string GetDetails()
+        public override string GetDetails()
         {
             return phoneComponent.GetDetails();
         }
 
-        public string GetModel()
+        public override string GetModel()
         {
             return phoneComponent.GetModel();
         }
 
-        public virtual string Contents()
+        public override string Contents()
         {
             return phoneComponent.Contents();
         }

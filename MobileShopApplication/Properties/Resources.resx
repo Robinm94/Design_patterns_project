@@ -118,40 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Apple-iPhone-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Apple-iPhone-12.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Apple-iPhone-12-Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Apple-iPhone-12-Pro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Apple-iPhone-14-Pro-Max" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Apple-iPhone-14-Pro-Max.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="OPPO-A74-5G" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>OPPO-A74-5G.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OPPO-Reno5-Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>OPPO-Reno5-Pro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OPPO-Find-X3-Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>OPPO-Find-X3-Pro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OPPO-Reno5-Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>OPPO-Reno5-Pro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Samsung-Galaxy-S20-Ultra-5G" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Samsung-Galaxy-S20-Ultra-5G.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Samsung-Galaxy-S21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Samsung-Galaxy-S21.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Samsung-Galaxy-S21-Ultra" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Samsung-Galaxy-S21-Ultra.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Xiaomi-Mi-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Xiaomi-Mi-11.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="OPPO-A74-5G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>OPPO-A74-5G.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Xiaomi-Poco-X3-NFC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Xiaomi-Poco-X3-NFC.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Apple-iPhone-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Apple-iPhone-12.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apple-iPhone-14-Pro-Max" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Apple-iPhone-14-Pro-Max.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apple-iPhone-12-Pro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Apple-iPhone-12-Pro.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Xiaomi-Mi-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Xiaomi-Mi-11.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samsung-Galaxy-S21-Ultra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Samsung-Galaxy-S21-Ultra.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Xiaomi-Redmi-Note-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Xiaomi-Redmi-Note-10.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samsung-Galaxy-S21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Samsung-Galaxy-S21.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Samsung-Galaxy-Note-20-Ultra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Samsung-Galaxy-Note-20-Ultra.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -36,7 +36,7 @@ namespace MobileShopApplication
                 case PhoneType.Apple:
                     switch (modelName)
                     {
-                        case "IPhoneProMax":
+                        case "IPhone14ProMax":
                             return new IPhone14ProMax();
                         case "IPhone12":
                             return new IPhone12();

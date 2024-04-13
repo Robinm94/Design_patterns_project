@@ -123,9 +123,9 @@ namespace MobileShopApplication.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Samsung_Galaxy_S20_Ultra_5G {
+        internal static System.Drawing.Bitmap Samsung_Galaxy_Note_20_Ultra {
             get {
-                object obj = ResourceManager.GetObject("Samsung-Galaxy-S20-Ultra-5G", resourceCulture);
+                object obj = ResourceManager.GetObject("Samsung-Galaxy-Note-20-Ultra", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
