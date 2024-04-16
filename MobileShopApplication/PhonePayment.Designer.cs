@@ -180,9 +180,9 @@
             lblDetailsText.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblDetailsText.Location = new Point(12, 54);
             lblDetailsText.Name = "lblDetailsText";
-            lblDetailsText.Size = new Size(244, 28);
+            lblDetailsText.Size = new Size(247, 28);
             lblDetailsText.TabIndex = 18;
-            lblDetailsText.Text = "Selected phone's details:";
+            lblDetailsText.Text = "Selected Phone's Details:";
             // 
             // pBoxPhone
             // 
