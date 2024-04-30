@@ -1,6 +1,6 @@
 namespace MobileShopApplication
 {
-    public partial class Form1 : Form
+    public partial class PhoneSelection : Form
     {
         // Store the selected phone model
         string phoneModel = string.Empty;
@@ -28,7 +28,7 @@ namespace MobileShopApplication
             { "RedmiNote10", "Redmi Note 10" }
         };
 
-        public Form1()
+        public PhoneSelection()
         {
             InitializeComponent();
         }

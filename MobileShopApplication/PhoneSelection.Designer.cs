@@ -1,6 +1,6 @@
 ﻿namespace MobileShopApplication
 {
-    partial class Form1
+    partial class PhoneSelection
     {
         /// <summary>
         ///  Required designer variable.
